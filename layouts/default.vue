@@ -1,13 +1,13 @@
 <template lang="pug">
-  .container
-    .navbar
+  .page-wrapper
+    .navbar.container
       img.brand-logo(src="/logo.png")
       a.link(href="#contato") Entre em contato
     nuxt
 </template>
 
 <style lang="postcss" scoped>
-.container {
+.page-wrapper {
   @apply flex flex-col items-center justify-start mx-auto;
 
   .navbar {

@@ -1,5 +1,5 @@
 <template lang="pug">
-  .container
+  main
     first-section
     feature-app.feature
     feature-smart-devices.feature.dark
@@ -24,7 +24,7 @@ export default {
 
 <style lang="postcss" scoped>
 .feature {
-  @apply pt-10 flex flex-col items-center px-4 bg-white;
+  @apply pt-10 px-4 bg-white;
   &.dark {
     @apply bg-avocado text-white;
   }
