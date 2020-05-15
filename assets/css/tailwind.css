@@ -3,6 +3,25 @@
 @import 'tailwindcss/utilities';
 
 html, body {
-  @apply font-sans bg-avocado;
+  @apply font-sans bg-avocado text-gray-900;
   font-size: 16px;
 }
+
+/* Material design icons */
+.md-icon {
+  @apply font-icon;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased; /* Support for all WebKit browsers. */
+  text-rendering: optimizeLegibility; /* Support for Safari and Chrome. */
+  -moz-osx-font-smoothing: grayscale; /* Support for Firefox. */
+  font-feature-settings: 'liga'; /* Support for IE. */
+}
+/* Material design icons */

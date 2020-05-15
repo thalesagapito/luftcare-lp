@@ -1,13 +1,32 @@
 <template lang="pug">
   .container
-    //- iphone
+    first-section
+    feature-app.feature
+    feature-smart-devices.feature.dark
+    feature-dashboard.feature
 </template>
 
 <script>
-import Iphone from '~/components/device-frames/iphone.vue'
+import FirstSection from '~/components/sections/first-section.vue'
+import FeatureApp from '~/components/sections/feature-app.vue'
+import FeatureSmartDevices from '~/components/sections/feature-smart-devices.vue'
+import FeatureDashboard from '~/components/sections/feature-dashboard.vue'
+
 export default {
-  components: { Iphone }
+  components: {
+    FirstSection,
+    FeatureApp,
+    FeatureSmartDevices,
+    FeatureDashboard
+  }
 }
 </script>
 
-<style></style>
+<style lang="postcss" scoped>
+.feature {
+  @apply pt-10 flex flex-col items-center px-4 bg-white;
+  &.dark {
+    @apply bg-avocado text-white;
+  }
+}
+</style>
