@@ -63,7 +63,7 @@ export default {
 
     .inhaler {
       @apply flex-1;
-      height: 22rem;
+      height: 25rem;
     }
   }
 }
