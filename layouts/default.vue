@@ -1,7 +1,7 @@
 <template lang="pug">
   .page-wrapper
     .navbar.container
-      img.brand-logo(src="/logo.png")
+      img.brand-logo(src="/logo.png" alt="Logo da luftcare. Letras em branco com uma barra horizontal abaixo delas.")
       a.link(href="#contato") Entre em contato
     nuxt
 </template>
