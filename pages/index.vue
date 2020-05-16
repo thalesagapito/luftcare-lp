@@ -5,6 +5,7 @@
     feature-smart-devices.feature.dark
     feature-dashboard.feature
     contact-section#contato
+    the-footer
 </template>
 
 <script>
@@ -13,6 +14,7 @@ import ContactSection from '~/components/sections/contact-section.vue'
 import FeatureApp from '~/components/sections/feature-app.vue'
 import FeatureSmartDevices from '~/components/sections/feature-smart-devices.vue'
 import FeatureDashboard from '~/components/sections/feature-dashboard.vue'
+import TheFooter from '~/components/sections/the-footer.vue'
 
 export default {
   components: {
@@ -20,7 +22,8 @@ export default {
     ContactSection,
     FeatureApp,
     FeatureSmartDevices,
-    FeatureDashboard
+    FeatureDashboard,
+    TheFooter
   }
 }
 </script>
