@@ -49,7 +49,7 @@ export default {
       left: 50%;
     }
     & >>> .nexus5 {
-      transform: scale(0.5) translateX(-100%);
+      transform: scale(0.48) translateX(-100%);
     }
     & >>> .iphone-x {
       transform: scale(0.5) translate(-20%, 10%);
